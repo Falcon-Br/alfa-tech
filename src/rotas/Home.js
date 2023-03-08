@@ -5,6 +5,8 @@ import Informacoes from '../componentes/informacoes/Informacoes';
 import Planos from '../componentes/Planos/Planos'
 import Topo from '../componentes/Topo/TopoHome';
 import BotaoVolta from '../componentes/BotaoVolta.js/BotaoVolta';
+import Rodape from '../componentes/Rodape/Rodape';
+import DescricaoRodape from '../componentes/Rodape/DescricaoRodape';
 
 function Home(){
     return(
@@ -13,13 +15,19 @@ function Home(){
             <Topo/>
         </header>
 
-        <Banner/>
-        <PrimeiroAnuncio/>
-        <Informacoes/>
-        <Planos/>
-        <SegundoAnuncio/>
-        <BotaoVolta/>
-        
+        <main>
+            <Banner/>
+            <PrimeiroAnuncio/>
+            <Informacoes/>
+            <Planos/>
+            <SegundoAnuncio/>
+            <BotaoVolta/>
+        </main>
+
+        <footer>
+            <Rodape/>
+            <DescricaoRodape/>
+        </footer>
     </>
     )
 }

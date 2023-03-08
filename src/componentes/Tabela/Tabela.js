@@ -1,8 +1,9 @@
 import React from "react"
+import style from './Tabela.module.css'
 
 function Tabela(){
     return(
-        <table>
+        <table className={style.tabelaContainer}>
             <thead>
                 <tr>
                     <th></th>
@@ -30,277 +31,129 @@ function Tabela(){
             </thead>
 
             <tbody>
+                
                 <tr>
-                    <td>MONITORAMENTO DE REDE</td> 
+                    <th>MONITORAMENTO DE REDE</th> 
                     <td>3 REDES</td>  
                     <td>10 REDES</td>
                     <td>20 REDES</td>
                     <td>50 REDES</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
                 </tr>
+
                 <tr>
-                    <td>DASHBOARD</td>  
+                    <th>DASHBOARD</th>  
                     <td>1 DASHBOARD</td> 
                     <td>5 DASHBOARDS</td>
                     <td>10 DASHBOARDS</td>
                     <td>25 DASHBOARDS</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td> 
                 </tr>
+
                 <tr>
-                    <td>USUÁRIO</td> 
+                    <th>USUÁRIO</th> 
                     <td>1 USUÁRIO</td> 
+                    <td>5 USUÁRIOS</td>
+                    <td>10 USUÁRIOS</td>
+                    <td>25 USUÁRIOS</td>
+                </tr>
+
+                <tr>
+                    <th>RELATÓRIO DE ATUALIZAÇÃO</th>  
+                    <td>TODA HORA</td>
                     <td>A CADA 30 MINUTOS</td>
                     <td>QUASE EM TEMPO REAL</td>
                     <td>TEMPO REAL</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>  
                 </tr>
+
                 <tr>
-                    <td>RELATÓRIO DE ATUALIZAÇÃO</td>  
-                    <td>TODA HORA</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <th>RELATÓRIO DE EMAILS</th>
+                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className={style.marcadorAzul}></div></td>
                 </tr>
+
                 <tr>
-                    <td>RELATÓRIO DE EMAILS</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <th>TRANSAÇÃO ILIMITADAS</th>
+                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className={style.marcadorAzul}></div></td>
                 </tr>
+
                 <tr>
-                    <td>TRANSAÇÃO ILIMITADAS</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <th>RASTREADOR DE PAGAMENTO</th>
+                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className={style.marcadorAzul}></div></td>
                 </tr>
+
                 <tr>
-                    <td>RASTREADOR DE PAGAMENTO</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <th>EXPORTAÇÃO DE DADOS</th>
+                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className={style.marcadorAzul}></div></td>
                 </tr>
+
                 <tr>
-                    <td>EXPORTAÇÃO DE DADOS</td>
+                    <th>CONVERSOR DE MOEDA</th>
                     <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className={style.marcadorAzul}></div></td>
                 </tr>
+
                 <tr>
-                    <td>CONVERSOR DE MOEDA</td>
+                    <th>ACESSO A API</th> 
                     <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className={style.marcadorAzul}></div></td>
                 </tr>
+
                 <tr>
-                    <td>ACESSO A API</td> 
+                    <th>RESTRIÇÃO DE IP</th>
                     <td></td>
                     <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td> <div className={style.marcadorAzul}></div></td>
+                    <td> <div className={style.marcadorAzul}></div></td>
                 </tr>
+
                 <tr>
-                    <td>RESTRIÇÃO DE IP</td>
+                    <th>FEED PERSONALIZADO</th>   
                     <td></td>
                     <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className={style.marcadorAzul}></div></td>            
                 </tr>
+
                 <tr>
-                    <td>FEED PERSONALIZADO</td>   
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>              
-                </tr>
-                <tr>
-                    <td>LIMITE DE IMPORTAÇÃO DE DADOS</td>
+                    <th>LIMITE DE IMPORTAÇÃO DE DADOS</th>
                     <td>ÚLTIMO ANO </td>      
                     <td>ÚLTIMOS 3 ANOS</td>
                     <td>ÚLTIMOS 3 ANOS</td>
-                    <td>ÚLTIMOS 3 ANOS</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>          
+                    <td>ÚLTIMOS 3 ANOS</td>     
                 </tr>
+
                 <tr>
-                    <td>RETENÇÃO DE DADOS</td> 
+                    <th>RETENÇÃO DE DADOS</th> 
                     <td>TEMPO DE VIDA</td>  
                     <td>TEMPO DE VIDA</td>
                     <td>TEMPO DE VIDA</td>
                     <td>TEMPO DE VIDA</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
                 </tr>
+
                 <tr>
-                    <td>SUPORTE</td> 
+                    <th>SUPORTE</th> 
                     <td>EMAIL</td>     
                     <td>EMAIL & CHAT</td>
                     <td>EMAIL & CHAT</td>
                     <td>EMAIL, CHAT & VOICE</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>   
                 </tr>
+
             </tbody>
+            
         </table>
     )
 }

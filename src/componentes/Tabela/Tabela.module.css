@@ -1,0 +1,60 @@
+.tabelaContainer{
+    margin: 100px auto;
+    font-size: 15px;
+    border-spacing: 0;
+    border-radius: 5px;
+}
+
+.tabelaContainer thead{
+    background-color: var(--cor-cinza);
+    height: 80px;
+}
+
+.tabelaContainer thead th{
+    border-left: 2px solid white;
+}
+
+.tabelaContainer p{
+    color: var(--cor-cinza-escuro);
+    font-size: 10px;
+}
+
+.tabelaContainer th:first-child{
+    background-color: white;
+}
+
+.tabelaContainer th:nth-child(2){
+    border-radius: 5px 0 0 0;
+}
+
+.tabelaContainer th:last-child{
+    border-radius: 0 5px 0 0;
+}
+
+.tabelaContainer tbody{
+    text-align: center;
+}
+
+.tabelaContainer tbody tr th:first-child{
+    padding-left: 30px;
+    height: 50px;
+    text-align: left;
+    background-color: var(--cor-cinza);
+    border-bottom: 2px solid white;
+    width: 280px;
+    font-weight: 600;
+} 
+
+.tabelaContainer td{
+    font-size: 13px;
+    font-weight: 600;
+    width: 150px;
+}
+
+.marcadorAzul{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: var(--cor-azul);
+    border-radius: 100px;
+}

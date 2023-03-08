@@ -68,7 +68,6 @@ function Planos(){
                         <td>Ofertas espaciais</td>
                         <td>Ofertas espaciais</td>
                     </tr>
-
                 </tbody>
 
                 <tfoot>

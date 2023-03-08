@@ -1,3 +1,5 @@
+import DescricaoRodape from '../componentes/Rodape/DescricaoRodape'
+import RodapeTabela from '../componentes/Rodape/RodapeTabela'
 import Tabela from '../componentes/Tabela/Tabela'
 import TopoTabela from '../componentes/Topo/TopoTabela'
 
@@ -8,7 +10,14 @@ function TabelaDePrecos(){
             <TopoTabela/>
         </header>
 
-        <Tabela/>
+        <main>
+            <Tabela/>   
+        </main>
+
+        <footer>
+            <RodapeTabela/>
+            <DescricaoRodape/>
+        </footer>
     </>
     )
 }

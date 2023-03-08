@@ -15,61 +15,61 @@
     font-size: 32px;
 }
 
-table{
+.planosContainer table{
     margin: 0 auto;
     border-spacing: 0; 
 }
 
-th{
+.planosContainer th{
     width: 220px;
 }
 
-th:first-of-type{
+.planosContainer th:first-of-type{
     border-radius: 5px 0 0 0;
 }
 
-th:last-of-type{
+.planosContainer th:last-of-type{
     border-radius: 0 5px 0 0;
 }
 
-tfoot td:last-of-type{
+.planosContainer tfoot td:last-of-type{
     border-radius: 0 0 5px 0;
 }
 
-tfoot td:first-of-type{
+.planosContainer tfoot td:first-of-type{
     border-radius: 0 0 0 5px;
 }
 
-th h3{
+.planosContainer th h3{
     margin: 10px auto;
 }
 
-th p{
+.planosContainer th p{
     font-size: 14px;
     width: 150px;
     margin: 10px auto;
     color: var(--cor-cinza-escuro);
 }
 
-th, td{
+.planosContainer th, td{
     padding: 15px;
     font-weight: 600;
 }
 
-th, td{
+.planosContainer th, td{
     border-left: 2px solid var(--cor-cinza);
     border-top: 2px solid var(--cor-cinza);
 }
 
-td:last-of-type ,th:last-of-type{
+.planosContainer td:last-of-type ,th:last-of-type{
     border-right: 2px solid var(--cor-cinza);
 }
 
-table{
+.planosContainer table{
     box-shadow: 0 0 35px 20px var(--cor-azul);
 }
 
-tr th{
+.planosContainer tr th{
     background-color: white;
 }
 

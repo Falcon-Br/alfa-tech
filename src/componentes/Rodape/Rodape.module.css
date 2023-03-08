@@ -5,6 +5,14 @@
     align-items: center;
 }
 
+.rodapeContainerTabela{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-azul);
+}
+
 .logoRodape img{
     height: 80px;
     width: 80px;

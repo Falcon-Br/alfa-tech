@@ -8,19 +8,12 @@ import TabelaDePrecos from './rotas/TabelaDePrecos.js'
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter> 
 
-      <main>        
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route path="/precos" element={<TabelaDePrecos/>}/>
         </Routes>
-      </main>
-
-      <footer>
-        <Rodape/>
-        <DescricaoRodape/>
-      </footer>
 
     </BrowserRouter>
   );

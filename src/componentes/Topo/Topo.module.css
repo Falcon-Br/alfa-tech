@@ -9,9 +9,24 @@ figcaption{
 .topoContainer{
     display: flex;
     justify-content: space-between;
+
     max-width: 1024px;
     margin: auto;
     padding: 40px;
+}
+
+.topoContainerTabela{
+    background-color: var(--cor-azul);
+}
+
+.topoContainerLogoTabela{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1024px;
+    margin: auto;
+    padding: 40px;
+  
 }
 
 .logoTopo img{
@@ -30,6 +45,11 @@ figcaption{
     padding-left: 15px;
 }
 
+.logoDescricaoTabela{
+    color: white;
+    font-weight: normal;
+}
+
 .listaTopoContainer{
     display: flex;
     align-items: center;
@@ -39,7 +59,16 @@ figcaption{
     display: flex;
 }
 
+.listaTopoTabela{
+    display: flex;
+}
+
 .listaTopo li{
+    list-style: none;
+    margin-right: 15px;
+}
+
+.listaTopoTabela li{
     list-style: none;
     margin-right: 15px;
 }
@@ -49,10 +78,23 @@ figcaption{
     font-weight: bold; 
 }
 
+.listaTopoTabela a{
+    text-decoration: none;  
+    font-weight: bold; 
+}
+
 .listaTopo a:visited{
+    color: black;
+}
+
+.listaTopoTabela a:visited{
     color: black;
 }
 
 .listaTopo a:hover{
     color: var(--cor-azul)
+}   
+
+.listaTopoTabela a:hover{
+    color: white;
 }   
