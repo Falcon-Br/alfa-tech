@@ -3,36 +3,37 @@ import IconePessoal from '../img/pessoal-icone.png'
 import IconeEquipe from '../img/equipe-icone.png'
 import IconeEmpresa from '../img/empresa-icone.png'
 import IconeBigTech from '../img/big-tech.png'
+import style from './Planos.module.css'
 
 function Planos(){
     return(
-        <section id="planos">
-            <h2>Pague somente pelo que for usar. Sem cobranças adicionais!</h2>
+        <section className={style.planosContainer} id="planos">
+            <h2>Pague <span>somente</span> pelo que for usar. Sem cobranças adicionais!</h2>
 
             <table>
                 <thead>
                     <tr>
                         <th>
-                            <h2>PESSOAL</h2>
+                            <h3>PESSOAL</h3>
                             <img src={IconePessoal} alt="Ícone Uso pessoal"/>
                             <p>Indicado para uso pessoal</p>
                         </th>
                         
                         
                         <th>
-                            <h2>PROFISSIONAL</h2>
+                            <h3>PROFISSIONAL</h3>
                             <img src={IconeEquipe} alt="Ícone Equipe"/>
                             <p>Indicado para profissionais de T.I.</p>
                         </th>
 
                         <th>
-                            <h2>EMPRESARIAL</h2>
+                            <h3>EMPRESARIAL</h3>
                             <img src={IconeEmpresa} alt="Ícone Empresa"/>
                             <p>Indicado para uso empresas</p>
                         </th>
 
                         <th>
-                            <h2>BIG TECHS</h2>
+                            <h3>BIG TECHS</h3>
                             <img src={IconeBigTech} alt="Ícone Big Tech"/>
                             <p>Indicado para grandes empresas</p>
                         </th>
@@ -56,7 +57,7 @@ function Planos(){
 
                     <tr>
                         <td>200GB SSD espaço</td>
-                        <td>500 SSD espaço</td>
+                        <td>500GB SSD espaço</td>
                         <td>1TB SSD espaço</td>
                         <td>2TB SSD espaço</td>
                     </tr>
@@ -68,13 +69,16 @@ function Planos(){
                         <td>Ofertas espaciais</td>
                     </tr>
 
+                </tbody>
+
+                <tfoot>
                     <tr>
                         <td>Suporte limitado</td>
                         <td>Suporte ilimitado</td>
                         <td>Suporte ilimitado</td>
                         <td>Suporte ilimitado</td>
                     </tr>
-                </tbody>
+                </tfoot>
 
             </table>
         </section>

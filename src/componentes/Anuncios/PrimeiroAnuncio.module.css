@@ -1,0 +1,39 @@
+.pAnuncioContainer{
+    background-color: var(--cor-azul-escuro);
+}
+.anuncioTamanho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    max-width: 1024px; 
+    height: 150px;
+    margin: 0 auto;
+}
+
+.pAnuncioDescricao{
+    color: var(--cor-branco);
+    padding: 10px;
+}
+
+.pAnuncioContainer a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--cor-branco);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    width: 250px;
+    height: 65px;
+    background-color: var(--cor-azul);
+    border-radius: 5px;
+}
+
+.pAnuncioContainer a::before{
+    content: url('../img/icone-foguete.png');
+    text-align: center;  
+    margin: auto 10px;
+}

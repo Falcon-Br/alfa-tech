@@ -1,18 +1,24 @@
 import LogoEscuro from '../img/logo-icone-escuro.png'
+import style from './Rodape.module.css'
 
 function Rodape(){
     return(
-        <section>
-            <figure>
-                <img src={LogoEscuro} alt="Ícone Logo Escuro"/>
-                <h2>Soluções em Hospedagem</h2>
-            </figure>
-            
-            <p>© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
+        <section className={style.rodapeContainer}>
 
-            <div>
-                <p>Desenvolvimento por <span>Ádrio Falcão</span></p>
+            <figure className={style.logoRodape}>
+                <img src={LogoEscuro} alt="Ícone Logo Escuro"/>          
+
+                <div className={style.logoDescricao}>
+                    <h1>AlfaTech</h1>
+                    <figcaption><span>Soluções em Hospedagem</span>
+                    </figcaption>
+                </div>
+            </figure>
+
+            <div className={style.subDescricaoRodape} >
+                <p>© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
             </div>
+            
         </section>
     )
 }

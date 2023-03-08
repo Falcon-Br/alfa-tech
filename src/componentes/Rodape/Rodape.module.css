@@ -1,0 +1,32 @@
+.rodapeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoRodape img{
+    height: 80px;
+    width: 80px;
+    margin: 40px 0;
+}
+
+.logoRodape{
+    display: flex;
+}
+
+.logoDescricao{
+    font-size: 20px;
+    margin: auto 0;
+    padding-left: 15px;
+}
+
+.descricaoRodape{
+    padding: 10px;
+    text-align: center;
+    background-color: var(--cor-cinza);
+}
+
+.subDescricaoRodape{
+    padding-bottom: 40px;
+}

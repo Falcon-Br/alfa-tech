@@ -1,0 +1,40 @@
+.informacoesContainer{
+    text-align: center;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.informacoesContainer h2{
+    margin: 90px  auto;
+    font-size: 33px;
+    width: 900px;
+    text-align: center;
+}
+
+.informacoesDivs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.informacoesBanners{
+    width: 400px;
+}
+
+.informacoesBanners img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.informacoesBanners h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.informacoesBanners p{
+    font-size: 16px;
+    width: 330px;
+    margin: 0 auto 120px auto;
+}
+

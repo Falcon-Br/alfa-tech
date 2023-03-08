@@ -1,8 +1,10 @@
+import style from './BotaoVolta.module.css'
+
 function BotaoVolta(){
     return(
-        <>
-            <a href="#banner">Voltar para o cima</a>
-        </>
+        <div className={style.botaoVolta}>
+            <a href="#topo">Subir</a>
+        </div>
     )
 }
 

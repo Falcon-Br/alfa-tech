@@ -11,7 +11,6 @@ function Home(){
     <>
         <header>
             <Topo/>
-            <BotaoVolta/>
         </header>
 
         <Banner/>
@@ -19,6 +18,8 @@ function Home(){
         <Informacoes/>
         <Planos/>
         <SegundoAnuncio/>
+        <BotaoVolta/>
+        
     </>
     )
 }

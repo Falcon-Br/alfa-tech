@@ -1,0 +1,32 @@
+.bannerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 620px;
+    background-color: var(--cor-azul);
+    color: var(--cor-branco);
+}
+
+.bannerDescricao{
+    width: 450px;
+}
+
+.bannerDescricao p{
+    margin: 15px 0;
+}
+
+.bannerDescricao p{
+    font-size: 16px;
+    margin: 17px 0;
+    width: 410px;
+}
+
+.bannerDescricao :last-child{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.bannerContainer h2{
+    font-size: 27px;
+}

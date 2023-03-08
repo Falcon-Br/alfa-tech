@@ -1,0 +1,58 @@
+h1{
+    font-size: 32px;
+}
+
+figcaption{
+    font-size: 15px;
+}
+
+.topoContainer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: auto;
+    padding: 40px;
+}
+
+.logoTopo img{
+    height: 80px;
+    width: 80px;
+    margin: auto 0;
+}
+
+.logoTopo{
+    display: flex;
+}
+
+.logoDescricao{
+    font-size: 20px;
+    margin: auto 0;
+    padding-left: 15px;
+}
+
+.listaTopoContainer{
+    display: flex;
+    align-items: center;
+}
+
+.listaTopo{
+    display: flex;
+}
+
+.listaTopo li{
+    list-style: none;
+    margin-right: 15px;
+}
+
+.listaTopo a{
+    text-decoration: none;  
+    font-weight: bold; 
+}
+
+.listaTopo a:visited{
+    color: black;
+}
+
+.listaTopo a:hover{
+    color: var(--cor-azul)
+}   
