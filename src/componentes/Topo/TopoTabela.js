@@ -20,6 +20,8 @@ function TopoTabela(){
                 <nav className={style.listaTopoContainer}>
                     <ul className={style.listaTopoTabela}>
                         <li><Link to="/">HOME</Link></li>
+                        <li><a href="#informacoes">INFORMACÕES</a></li>
+                        <li><a href="Home.js#planos">PLANOS</a></li>
                         <li><a href="#contato">CONTATO</a></li>
                     </ul>
                 </nav>

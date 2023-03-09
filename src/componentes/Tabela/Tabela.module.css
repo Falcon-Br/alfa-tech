@@ -3,6 +3,7 @@
     font-size: 15px;
     border-spacing: 0;
     border-radius: 5px;
+    border-bottom: 2px solid var(--cor-cinza);
 }
 
 .tabelaContainer thead{
@@ -57,4 +58,8 @@
     margin: auto;
     background-color: var(--cor-azul);
     border-radius: 100px;
+}
+
+.tabelaContainer tbody td:last-child{
+    border-right: 2px solid var(--cor-cinza);
 }
