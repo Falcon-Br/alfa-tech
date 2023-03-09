@@ -7,6 +7,7 @@ function TabelaDePrecos(){
     return(
     <>
         <header>
+
             <TopoTabela/>
         </header>
 

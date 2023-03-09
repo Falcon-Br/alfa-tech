@@ -5,8 +5,10 @@ import IconeSuporte from '../img/icone-suporte.png'
 import style from './informacoes.module.css'
 
 function Informacoes(){
+
     return(
-        <section className={style.informacoesContainer} id="informacoes">
+        <section className={style.informacoesContainer} id="info">
+   
             <h2>Existem diversos serviços de hospedagem de sites. Porque você deve <span>nos escolher?</span> </h2>
 
             <div className={style.informacoesDivs}>              

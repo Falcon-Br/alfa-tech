@@ -6,6 +6,7 @@ import IconeBigTech from '../img/big-tech.png'
 import style from './Planos.module.css'
 
 function Planos(){
+
     return(
         <section className={style.planosContainer} id="planos">
             <h2>Pague <span>somente</span> pelo que for usar. Sem cobranças adicionais!</h2>

@@ -9,6 +9,7 @@ import Rodape from '../componentes/Rodape/Rodape';
 import DescricaoRodape from '../componentes/Rodape/DescricaoRodape';
 
 function Home(){
+    
     return(
     <>
         <header>

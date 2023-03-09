@@ -1,8 +1,42 @@
 import LogoEscuro from '../img/logo-icone-escuro.png'
-import {Link} from 'react-router-dom'
+import {Link as LinkRouter} from 'react-router-dom'
+import * as Scroll from 'react-scroll';
 import style from './Topo.module.css'
+import { useNavigate } from 'react-router-dom';
 
 function TopoTabela(){
+  const navigate = useNavigate();
+  const scroller = Scroll.scroller;
+
+  const informacoesScroll = async () => {
+    await navigate('/');
+    await scroller.scrollTo('info', {
+      duration: 500,
+      delay: 100,
+      smooth: true,
+      offset: -90
+    });
+  };
+
+  const planosScroll = async () => {
+    await navigate('/');
+    await scroller.scrollTo('planos', {
+      duration: 500,
+      delay: 100,
+      smooth: true,
+      offset: 0
+    });
+  };
+
+  const contatoScroll = async () => {
+    await navigate('/');
+    await scroller.scrollTo('contato', {
+      duration: 1000,
+      delay: 100,
+      smooth: true,
+      offset: 0
+    });
+  };
 
     return(
         <section className={style.topoContainerTabela}>
@@ -19,10 +53,21 @@ function TopoTabela(){
 
                 <nav className={style.listaTopoContainer}>
                     <ul className={style.listaTopoTabela}>
-                        <li><Link to="/">HOME</Link></li>
-                        <li><a href="#informacoes">INFORMACÕES</a></li>
-                        <li><a href="Home.js#planos">PLANOS</a></li>
-                        <li><a href="#contato">CONTATO</a></li>
+                        <li>
+                            <LinkRouter to="/">HOME</LinkRouter>
+                        </li>
+
+                        <li>
+                            <a onClick={informacoesScroll}>INFORMAÇÕES</a>
+                        </li>
+
+                        <li>
+                            <a onClick={planosScroll}>PLANOS</a>
+                        </li>
+      
+                        <li>
+                            <a onClick={contatoScroll}>CONTATO</a>
+                        </li>
                     </ul>
                 </nav>
             </div>

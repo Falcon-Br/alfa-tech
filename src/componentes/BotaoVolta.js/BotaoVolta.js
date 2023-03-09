@@ -1,9 +1,10 @@
 import style from './BotaoVolta.module.css'
+import {Link as LinkScroll} from 'react-scroll'
 
 function BotaoVolta(){
     return(
         <div className={style.botaoVolta}>
-            <a href="#topo">Subir</a>
+            <LinkScroll to="topo" spy={true} smooth={true} offset={0} duration={500}>Subir</LinkScroll>
         </div>
     )
 }

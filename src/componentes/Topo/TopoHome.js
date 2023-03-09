@@ -1,5 +1,6 @@
 import Logo from '../img/logo-icone.png'
-import {Link} from 'react-router-dom'
+import {Link as LinkRouter} from 'react-router-dom'
+import {Link as LinkScroll} from 'react-scroll'
 import style from './Topo.module.css'
 
 function TopoHome(){
@@ -18,10 +19,21 @@ function TopoHome(){
 
             <nav className={style.listaTopoContainer}>
                 <ul className={style.listaTopo}>
-                    <li><a href="#informacoes">INFORMACÕES</a></li>
-                    <li><a href="#planos">PLANOS</a></li>
-                    <li><Link to="/precos">PREÇOS</Link></li>
-                    <li><a href="#contato">CONTATO</a></li>
+                    <li>
+                        <LinkScroll to="info" spy={true} smooth={true} offset={-90} duration={500}>INFORMAÇÕES</LinkScroll>
+                    </li>
+
+                    <li>
+                        <LinkScroll to="planos" spy={true} smooth={true} offset={0} duration={500}>PLANOS</LinkScroll>
+                    </li>
+
+                    <li>
+                        <LinkRouter to="/precos">PREÇOS</LinkRouter>
+                    </li>
+
+                    <li>
+                        <LinkScroll to="contato" spy={true} smooth={true} offset={50} duration={500}>CONTATO</LinkScroll>
+                    </li>
                 </ul>
             </nav>
         </section>

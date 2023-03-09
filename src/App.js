@@ -10,6 +10,7 @@ function App() {
 
         <Routes>
           <Route exact path="/" element={<Home/>}/>
+          <Route path="/home" element={<Home/>}/>
           <Route path="/precos" element={<TabelaDePrecos/>}/>
         </Routes>
 
