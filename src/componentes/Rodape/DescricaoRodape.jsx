@@ -1,8 +1,8 @@
-import style from './Rodape.module.css'
+import './Rodape.css'
 
 function DescricaoRodape(){    
     return(
-        <div className={style.descricaoRodape}>
+        <div className="descricao-rodape">
             <p>Desenvolvimento por <span>Ádrio Falcão</span></p>
         </div>
     )

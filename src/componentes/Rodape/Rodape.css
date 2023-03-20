@@ -1,40 +1,36 @@
-.rodapeContainer{
+.rodape-container, .rodape-container-tabela{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.rodapeContainerTabela{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.rodape-container-tabela{
     background-color: var(--cor-azul);
 }
 
-.logoRodape img{
+.logo-rodape img{
     height: 80px;
     width: 80px;
     margin: 40px 0;
 }
 
-.logoRodape{
+.logo-rodape{
     display: flex;
 }
 
-.logoDescricao{
+.logo-descricao{
     font-size: 20px;
     margin: auto 0;
     padding-left: 15px;
 }
 
-.descricaoRodape{
+.descricao-rodape{
     padding: 10px;
     text-align: center;
     background-color: var(--cor-cinza);
 }
 
-.subDescricaoRodape{
+.sub-descricao-rodape{
     padding-bottom: 40px;
 }

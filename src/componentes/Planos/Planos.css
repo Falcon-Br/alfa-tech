@@ -1,83 +1,83 @@
-.planosContainer{
+.planos-container{
     text-align: center;
     background-color: var(--cor-cinza);
     margin: 0 auto;
     padding: 90px;
 }
 
-.planosContainer img{
+.planos-container img{
     height: 100px;
     width: 100px;
 }
 
-.planosContainer h2{
+.planos-container h2{
     margin: 10px 0 70px 0;
     font-size: 32px;
 }
 
-.planosContainer table{
+.planos-container table{
     margin: 0 auto;
     border-spacing: 0; 
 }
 
-.planosContainer th{
+.planos-container th{
     width: 220px;
 }
 
-.planosContainer th:first-of-type{
+.planos-container th:first-of-type{
     border-radius: 5px 0 0 0;
 }
 
-.planosContainer th:last-of-type{
+.planos-container th:last-of-type{
     border-radius: 0 5px 0 0;
 }
 
-.planosContainer tfoot td:last-of-type{
+.planos-container tfoot td:last-of-type{
     border-radius: 0 0 5px 0;
 }
 
-.planosContainer tfoot td:first-of-type{
+.planos-container tfoot td:first-of-type{
     border-radius: 0 0 0 5px;
 }
 
-.planosContainer th h3{
+.planos-container th h3{
     margin: 10px auto;
 }
 
-.planosContainer th p{
+.planos-container th p{
     font-size: 14px;
     width: 150px;
     margin: 10px auto;
     color: var(--cor-cinza-escuro);
 }
 
-.planosContainer th, td{
+.planos-container th, td{
     padding: 15px;
     font-weight: 600;
 }
 
-.planosContainer th, td{
+.planos-container th, td{
     border-left: 2px solid var(--cor-cinza);
     border-top: 2px solid var(--cor-cinza);
 }
 
-.planosContainer td:last-of-type ,th:last-of-type{
+.planos-container td:last-of-type ,th:last-of-type{
     border-right: 2px solid var(--cor-cinza);
 }
 
-.planosContainer table{
+.planos-container table{
     box-shadow: 0 0 35px 20px var(--cor-azul);
 }
 
-.planosContainer tr th{
+.planos-container tr th{
     background-color: white;
 }
 
-.planosContainer tr:nth-of-type(odd){
+.planos-container tr:nth-of-type(odd){
     background-color: var(--cor-cinza-tabela);
 }
 
-.planosContainer tr:nth-of-type(even){
+.planos-container tr:nth-of-type(even){
     background-color: white;
 }
 

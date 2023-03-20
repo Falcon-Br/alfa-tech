@@ -3,12 +3,12 @@ import IconePessoal from '../img/pessoal-icone.png'
 import IconeEquipe from '../img/equipe-icone.png'
 import IconeEmpresa from '../img/empresa-icone.png'
 import IconeBigTech from '../img/big-tech.png'
-import style from './Planos.module.css'
+import './Planos.css'
 
 function Planos(){
 
     return(
-        <section className={style.planosContainer} id="planos">
+        <section className="planos-container" id="planos">
             <h2>Pague <span>somente</span> pelo que for usar. Sem cobranças adicionais!</h2>
 
             <table>

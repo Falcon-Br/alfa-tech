@@ -1,38 +1,38 @@
-.informacoesContainer{
+.informacoes-container{
     text-align: center;
     max-width: 1024px;
     margin: 0 auto;
 }
 
-.informacoesContainer h2{
+.informacoes-container h2{
     margin: 90px  auto;
     font-size: 33px;
     width: 900px;
     text-align: center;
 }
 
-.informacoesDivs{
+.informacoes-divs{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.informacoesBanners{
+.informacoes-banners{
     width: 400px;
 }
 
-.informacoesBanners img{
+.informacoes-banners img{
     height: 100px;
     width: 100px;
     margin-bottom: 30px;
 }
 
-.informacoesBanners h3{
+.informacoes-banners h3{
     margin-bottom: 20px;
     font-size: 20px;
 }
 
-.informacoesBanners p{
+.informacoes-banners p{
     font-size: 16px;
     width: 330px;
     margin: 0 auto 120px auto;

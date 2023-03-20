@@ -1,9 +1,9 @@
 import React from "react"
-import style from './Tabela.module.css'
+import './Tabela.css'
 
 function Tabela(){
     return(
-        <table className={style.tabelaContainer}>
+        <table className="tabela-container">
             <thead>
                 <tr>
                     <th></th>
@@ -66,66 +66,66 @@ function Tabela(){
 
                 <tr>
                     <th>RELATÓRIO DE EMAILS</th>
-                    <td><div className={style.marcadorAzul}></div></td>
-                    <td><div className={style.marcadorAzul}></div></td>
-                    <td><div className={style.marcadorAzul}></div></td>
-                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className="marcador-azul"></div></td>
+                    <td><div className="marcador-azul"></div></td>
+                    <td><div className="marcador-azul"></div></td>
+                    <td><div className="marcador-azul"></div></td>
                 </tr>
 
                 <tr>
                     <th>TRANSAÇÃO ILIMITADAS</th>
-                    <td><div className={style.marcadorAzul}></div></td>
-                    <td><div className={style.marcadorAzul}></div></td>
-                    <td><div className={style.marcadorAzul}></div></td>
-                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className="marcador-azul"></div></td>
+                    <td><div className="marcador-azul"></div></td>
+                    <td><div className="marcador-azul"></div></td>
+                    <td><div className="marcador-azul"></div></td>
                 </tr>
 
                 <tr>
                     <th>RASTREADOR DE PAGAMENTO</th>
-                    <td><div className={style.marcadorAzul}></div></td>
-                    <td><div className={style.marcadorAzul}></div></td>
-                    <td><div className={style.marcadorAzul}></div></td>
-                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className="marcador-azul"></div></td>
+                    <td><div className="marcador-azul"></div></td>
+                    <td><div className="marcador-azul"></div></td>
+                    <td><div className="marcador-azul"></div></td>
                 </tr>
 
                 <tr>
                     <th>EXPORTAÇÃO DE DADOS</th>
-                    <td><div className={style.marcadorAzul}></div></td>
-                    <td><div className={style.marcadorAzul}></div></td>
-                    <td><div className={style.marcadorAzul}></div></td>
-                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className="marcador-azul"></div></td>
+                    <td><div className="marcador-azul"></div></td>
+                    <td><div className="marcador-azul"></div></td>
+                    <td><div className="marcador-azul"></div></td>
                 </tr>
 
                 <tr>
                     <th>CONVERSOR DE MOEDA</th>
                     <td></td>
-                    <td><div className={style.marcadorAzul}></div></td>
-                    <td><div className={style.marcadorAzul}></div></td>
-                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className="marcador-azul"></div></td>
+                    <td><div className="marcador-azul"></div></td>
+                    <td><div className="marcador-azul"></div></td>
                 </tr>
 
                 <tr>
                     <th>ACESSO A API</th> 
                     <td></td>
-                    <td><div className={style.marcadorAzul}></div></td>
-                    <td><div className={style.marcadorAzul}></div></td>
-                    <td><div className={style.marcadorAzul}></div></td>
+                    <td><div className="marcador-azul"></div></td>
+                    <td><div className="marcador-azul"></div></td>
+                    <td><div className="marcador-azul"></div></td>
                 </tr>
 
                 <tr>
                     <th>RESTRIÇÃO DE IP</th>
                     <td></td>
                     <td></td>
-                    <td> <div className={style.marcadorAzul}></div></td>
-                    <td> <div className={style.marcadorAzul}></div></td>
+                    <td> <div className="marcador-azul"></div></td>
+                    <td> <div className="marcador-azul"></div></td>
                 </tr>
 
                 <tr>
                     <th>FEED PERSONALIZADO</th>   
                     <td></td>
                     <td></td>
-                    <td><div className={style.marcadorAzul}></div></td>
-                    <td><div className={style.marcadorAzul}></div></td>            
+                    <td><div className="marcador-azul"></div></td>
+                    <td><div className="marcador-azul"></div></td>            
                 </tr>
 
                 <tr>

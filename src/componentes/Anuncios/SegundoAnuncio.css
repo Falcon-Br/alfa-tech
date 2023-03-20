@@ -1,7 +1,7 @@
-.pAnuncioContainer{
-    background-color: var(--cor-azul-escuro);
+.pAnunci-container{
+    background-color: var(--cor-azul);
 }
-.anuncioTamanho{
+.anuncio-tamanho{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,12 +11,13 @@
     margin: 0 auto;
 }
 
-.pAnuncioDescricao{
+.pAnuncio-descricao{
     color: var(--cor-branco);
     padding: 10px;
 }
 
-.pAnuncioContainer a{
+
+.botao{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,14 +26,17 @@
     text-decoration: none;
     text-align: center;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 15px;
+    padding-right: 15px;
     width: 250px;
     height: 65px;
-    background-color: var(--cor-azul);
+    background-color: var(--cor-azul-escuro);
     border-radius: 5px;
+    border: 0;
+    cursor: pointer;
 }
 
-.pAnuncioContainer a::before{
+.botao::before{
     content: url('../img/icone-foguete.png');
     text-align: center;  
     margin: auto 10px;

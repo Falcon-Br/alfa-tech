@@ -1,4 +1,4 @@
-.tabelaContainer{
+.tabela-container{
     margin: 100px auto;
     font-size: 15px;
     border-spacing: 0;
@@ -6,37 +6,37 @@
     border-bottom: 2px solid var(--cor-cinza);
 }
 
-.tabelaContainer thead{
+.tabela-container thead{
     background-color: var(--cor-cinza);
     height: 80px;
 }
 
-.tabelaContainer thead th{
+.tabela-container thead th{
     border-left: 2px solid white;
 }
 
-.tabelaContainer p{
+.tabela-container p{
     color: var(--cor-cinza-escuro);
     font-size: 10px;
 }
 
-.tabelaContainer th:first-child{
+.tabela-container th:first-child{
     background-color: white;
 }
 
-.tabelaContainer th:nth-child(2){
+.tabela-container th:nth-child(2){
     border-radius: 5px 0 0 0;
 }
 
-.tabelaContainer th:last-child{
+.tabela-container th:last-child{
     border-radius: 0 5px 0 0;
 }
 
-.tabelaContainer tbody{
+.tabela-container tbody{
     text-align: center;
 }
 
-.tabelaContainer tbody tr th:first-child{
+.tabela-container tbody tr th:first-child{
     padding-left: 30px;
     height: 50px;
     text-align: left;
@@ -46,13 +46,13 @@
     font-weight: 600;
 } 
 
-.tabelaContainer td{
+.tabela-container td{
     font-size: 13px;
     font-weight: 600;
     width: 150px;
 }
 
-.marcadorAzul{
+.marcador-azul{
     width: 20px;
     height: 20px;
     margin: auto;
@@ -60,6 +60,6 @@
     border-radius: 100px;
 }
 
-.tabelaContainer tbody td:last-child{
+.tabela-container tbody td:last-child{
     border-right: 2px solid var(--cor-cinza);
 }

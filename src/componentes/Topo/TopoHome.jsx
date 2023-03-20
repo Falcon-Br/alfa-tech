@@ -1,24 +1,24 @@
 import Logo from '../img/logo-icone.png'
 import {Link as LinkRouter} from 'react-router-dom'
 import {Link as LinkScroll} from 'react-scroll'
-import style from './Topo.module.css'
+import './Topo.css'
 
 function TopoHome(){
 
     return(
-        <section className={style.topoContainer} id="topo">
+        <section className="topo-container" id="topo">
 
-            <figure className={style.logoTopo}>
+            <figure className="logo-topo">
                 <img src={Logo} alt="AlfaTech"/>
 
-                <div className={style.logoDescricao}>
+                <div className="logo-descricao">
                     <h1>AlfaTech</h1>
                     <figcaption><span>Soluções em Hospedagem</span></figcaption>
                 </div>
             </figure>
 
-            <nav className={style.listaTopoContainer}>
-                <ul className={style.listaTopo}>
+            <nav >
+                <ul className="lista-topo">
                     <li>
                         <LinkScroll to="info" spy={true} smooth={true} offset={-90} duration={500}>INFORMAÇÕES</LinkScroll>
                     </li>

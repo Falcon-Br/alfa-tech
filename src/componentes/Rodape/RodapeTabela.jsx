@@ -1,21 +1,21 @@
 import LogoEscuro from '../img/logo-icone-escuro.png'
-import style from './Rodape.module.css'
+import './Rodape.css'
 
-function Rodape(){
+function RodapeTabela(){
     return(
-        <section className={style.rodapeContainer}>
+        <section className="rodape-container-tabela">
 
-            <figure className={style.logoRodape}>
+            <figure className="logo-rodape">
                 <img src={LogoEscuro} alt="Ícone Logo Escuro"/>          
 
-                <div className={style.logoDescricao}>
+                <div className="logo-descricao">
                     <h1>AlfaTech</h1>
                     <figcaption><span>Soluções em Hospedagem</span>
                     </figcaption>
                 </div>
             </figure>
 
-            <div className={style.subDescricaoRodape} >
+            <div className="sub-descricao-rodape" >
                 <p>© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
             </div>
             
@@ -23,4 +23,4 @@ function Rodape(){
     )
 }
 
-export default Rodape
+export default RodapeTabela

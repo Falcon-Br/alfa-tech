@@ -6,58 +6,59 @@ figcaption{
     font-size: 15px;
 }
 
-.topoContainer, .topoContainerLogoTabela{
+.topo-container, .topo-container-logo-tabela{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     max-width: 1024px;
     margin: auto;
     padding: 40px;
 }
 
-.topoContainerTabela{
+.topo-container-tabela{
     background-color: var(--cor-azul);
 }
 
-.logoTopo img{
+.logo-topo img{
     height: 80px;
     width: 80px;
     margin: auto 0;
 }
 
-.logoTopo{
+.logo-topo{
     display: flex;
 }
 
-.logoDescricao{
+.logo-descricao{
     font-size: 20px;
     margin: auto 0;
     padding-left: 15px;
 }
 
-.logoDescricaoTabela{
+.logo-descricao-tabela{
     color: white;
     font-weight: normal;
 }
 
-.listaTopoContainer{
+.lista-topo-container{
     display: flex;
     align-items: center;
 }
 
-.listaTopo, .listaTopoTabela{
+.lista-topo, .lista-topo-tabela{
     display: flex;
 }
 
-.listaTopo li, .listaTopoTabela li{
+.lista-topo li, .lista-topo-tabela li{
     list-style: none;
     margin-right: 15px;
 }
 
-.listaTopo a:hover{
+.lista-topo a:hover{
     color: var(--cor-azul)
 }   
 
-.listaTopoTabela a:hover{
+.lista-topo-tabela a:hover{
     color: white;
 }   

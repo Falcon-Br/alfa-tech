@@ -1,0 +1,73 @@
+.form-control.req-container{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+
+ gap: 2rem;
+}
+
+.req-container{
+    text-align: center;
+    position: relative;
+}
+
+.req-container svg{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.req-container svg:hover{
+    fill: var(--cor-azul);
+}
+
+.req-container input:checked ~ svg{
+    border: 3px solid var(--cor-azul);
+    border-radius: 5px;
+    fill: var(--cor-azul);
+    transition: .12s;
+}
+
+.req-container input:checked ~ p{
+    font-weight: bold;
+    color: var(--cor-azul);
+    transition: .12s;
+}
+
+.req-container input{
+    opacity: 0;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+
+.req-container p{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-top: .4rem;
+}
+
+.form-control.label{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.radio{
+    margin-top: 10px;
+}
+
+.radio:hover{
+    cursor: pointer;
+    color: var(--cor-azul);
+}
+
+/* Comment */
+.form-control.comment{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control.comment label{
+    margin: .5rem 0;
+}
+

@@ -1,7 +1,7 @@
 import LogoEscuro from '../img/logo-icone-escuro.png'
 import {Link as LinkRouter} from 'react-router-dom'
 import * as Scroll from 'react-scroll';
-import style from './Topo.module.css'
+import './Topo.css'
 import { useNavigate } from 'react-router-dom';
 
 function TopoTabela(){
@@ -39,20 +39,20 @@ function TopoTabela(){
   };
 
     return(
-        <section className={style.topoContainerTabela}>
+        <section className="topo-container-tabela">
 
-            <div className={style.topoContainerLogoTabela}>
-                <figure className={style.logoTopo}>
+            <div className="topo-container-logo-tabela">
+                <figure className="logo-topo">
                     <img src={LogoEscuro} alt="AlfaTech"/>
 
-                    <div className={style.logoDescricao}>
+                    <div className="logo-descricao">
                         <h1>AlfaTech</h1>
-                        <figcaption><span className={style.logoDescricaoTabela}>Soluções em Hospedagem</span></figcaption>
+                        <figcaption><span className="logo-descricao-tabela">Soluções em Hospedagem</span></figcaption>
                     </div>
                 </figure>
 
-                <nav className={style.listaTopoContainer}>
-                    <ul className={style.listaTopoTabela}>
+                <nav className="lista-topo-container">
+                    <ul className="lista-topo-tabela">
                         <li>
                             <LinkRouter to="/">HOME</LinkRouter>
                         </li>

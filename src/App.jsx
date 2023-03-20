@@ -1,7 +1,6 @@
-import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './rotas/Home'
-import TabelaDePrecos from './rotas/TabelaDePrecos.js'
+import TabelaDePrecos from './rotas/TabelaDePrecos.jsx'
 
 function App() {
 
