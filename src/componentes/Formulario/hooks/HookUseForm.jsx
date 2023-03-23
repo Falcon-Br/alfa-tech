@@ -13,10 +13,15 @@ export function HookUseForm(steps){
         
     }
 
+    function resetStep(){
+        setCurrentStep(0)
+    }
+
     return{
         currentStep,
         currentComponent: steps[currentStep],
         changeStep,
+        resetStep,
         isFirstStep: currentStep === 0 ? true : false,
         isLastStep: currentStep + 1  === steps.length ? true : false,
     }  

@@ -17,7 +17,7 @@ function TopoHome(){
                 </div>
             </figure>
 
-            <nav >
+            <nav className='lista-topo-container'>
                 <ul className="lista-topo">
                     <li>
                         <LinkScroll to="info" spy={true} smooth={true} offset={-90} duration={500}>INFORMAÇÕES</LinkScroll>

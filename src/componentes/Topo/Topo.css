@@ -9,7 +9,6 @@ figcaption{
 .topo-container, .topo-container-logo-tabela{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 
     max-width: 1024px;
     margin: auto;
@@ -55,10 +54,20 @@ figcaption{
     margin-right: 15px;
 }
 
+.lista-topo a{
+    transition: .3s;
+}  
+
+.lista-topo-tabela a{
+    transition: .3s;
+}   
+
 .lista-topo a:hover{
-    color: var(--cor-azul)
+    color: var(--cor-azul);
+    transition: .3s;
 }   
 
 .lista-topo-tabela a:hover{
     color: white;
+    transition: .3s;
 }   

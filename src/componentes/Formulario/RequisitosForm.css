@@ -18,6 +18,7 @@
 
 .req-container svg:hover{
     fill: var(--cor-azul);
+    transition: .3s;
 }
 
 .req-container input:checked ~ svg{
@@ -54,11 +55,13 @@
 
 .radio{
     margin-top: 10px;
+    transition: .3s;
 }
 
 .radio:hover{
     cursor: pointer;
     color: var(--cor-azul);
+    transition: .3s;
 }
 
 /* Comment */

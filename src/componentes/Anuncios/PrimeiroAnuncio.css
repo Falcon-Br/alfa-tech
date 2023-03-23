@@ -30,10 +30,17 @@
     height: 65px;
     background-color: var(--cor-azul);
     border-radius: 5px;
+
+    transition: .3s;
 }
 
 .pAnuncio-container a::before{
     content: url('../img/icone-foguete.png');
     text-align: center;  
     margin: auto 10px;
+}
+
+.pAnuncio-container a:hover{
+    font-size: 1.2rem;
+    transition: .3s;
 }

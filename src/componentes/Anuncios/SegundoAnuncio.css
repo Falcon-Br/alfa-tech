@@ -16,7 +16,6 @@
     padding: 10px;
 }
 
-
 .botao{
     display: flex;
     justify-content: center;
@@ -34,10 +33,17 @@
     border-radius: 5px;
     border: 0;
     cursor: pointer;
+
+    transition: .3s;
 }
 
 .botao::before{
     content: url('../img/icone-foguete.png');
     text-align: center;  
     margin: auto 10px;
+}
+
+.botao:hover{
+    font-size: 1.15rem;
+    transition: .3s;
 }

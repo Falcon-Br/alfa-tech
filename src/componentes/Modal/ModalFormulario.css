@@ -41,6 +41,7 @@
     background-color: var(--cor-azul-escuro);
     border: 0;
     border-radius: 5px;
+
     cursor: pointer;
     transition: 0.3s;
 }

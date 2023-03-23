@@ -50,6 +50,15 @@
     font-size: 13px;
     font-weight: 600;
     width: 150px;
+
+    transition: .3s;
+}
+
+.tabela-container td:hover{
+    background-color: var(--cor-azul-escuro);
+    color: white;
+
+    transition: .3s;
 }
 
 .marcador-azul{
