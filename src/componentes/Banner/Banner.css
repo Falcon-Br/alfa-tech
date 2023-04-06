@@ -14,19 +14,20 @@
 
 .banner-descricao{
     width: 450px;
+    padding-left: 20px;
 }
 
 .banner-descricao p{
     margin: 15px 0;
-}
-
-.banner-descricao p{
     font-size: 16px;
     margin: 17px 0;
-    width: 410px;
 }
 
 .banner-descricao :last-child{
     font-size: 15px;
     text-align: justify;
+}
+
+.banner-container img{
+    width: 100%;
 }

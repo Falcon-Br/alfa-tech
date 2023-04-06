@@ -1,8 +1,7 @@
 .container-modal{
     max-width: 700px;
-
-    margin: 0 auto;
-    padding: 50px;
+    
+    padding: 30px;
 }
 
 .descricao-modal{
@@ -19,11 +18,10 @@
 /* form */
 .form-container{
     max-width: 500px;
-    height: 550px;
     padding: 30px 40px;
     margin: 0 auto;
-    box-shadow: rgba(100, 100, 100, 0.2) 0 7px 29px 0;
-    overflow-y: auto;
+    box-shadow: rgba(100, 100, 100, 0.5) 0 7px 29px 0;
+    border-radius: 5px;
 }
 
 .form-control{
@@ -82,5 +80,5 @@
 }
 
 .actions button:hover{
-    opacity: 90%;
+    background-color: var(--cor-azul)
 }

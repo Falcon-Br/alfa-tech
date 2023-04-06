@@ -1,8 +1,11 @@
-import LogoEscuro from '../img/logo-icone-escuro.png'
+//Componente React
+import { useNavigate } from 'react-router-dom';
 import {Link as LinkRouter} from 'react-router-dom'
 import * as Scroll from 'react-scroll';
+
+//Style
+import LogoEscuro from '../img/logo-icone-escuro.png'
 import './Topo.css'
-import { useNavigate } from 'react-router-dom';
 
 function TopoTabela(){
   const navigate = useNavigate();
@@ -43,11 +46,11 @@ function TopoTabela(){
 
             <div className="topo-container-logo-tabela">
                 <figure className="logo-topo">
-                    <img src={LogoEscuro} alt="AlfaTech"/>
+                    <img className="logo-topo-img" src={LogoEscuro} alt="AlfaTech"/>
 
                     <div className="logo-descricao">
                         <h1>AlfaTech</h1>
-                        <figcaption><span className="logo-descricao-tabela">Soluções em Hospedagem</span></figcaption>
+                        <figcaption><span className='logo-descricao-tabela'>Soluções em Hospedagem</span></figcaption>
                     </div>
                 </figure>
 

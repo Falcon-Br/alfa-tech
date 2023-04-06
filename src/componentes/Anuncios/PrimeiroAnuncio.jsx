@@ -1,5 +1,7 @@
-import React from "react"
+//Componente React
 import {Link} from 'react-router-dom'
+
+//Style
 import  './PrimeiroAnuncio.css'
 
 function PrimeiroAnuncio(){

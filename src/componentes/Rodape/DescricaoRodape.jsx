@@ -1,3 +1,4 @@
+//Style
 import './Rodape.css'
 
 function DescricaoRodape(){    

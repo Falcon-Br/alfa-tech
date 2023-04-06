@@ -1,4 +1,7 @@
+//Componente React
 import {Link as LinkScroll} from 'react-scroll'
+
+//style
 import './BotaoVolta.css'
 
 function BotaoVolta(){

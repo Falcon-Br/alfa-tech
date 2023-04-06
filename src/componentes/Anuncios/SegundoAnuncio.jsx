@@ -1,5 +1,10 @@
-import React, { useState } from "react"
+//Componente React
+import { useState } from "react"
+
+//Componente
 import ModalFormulario from '../Modal/ModalFormulario'
+
+//Style
 import './SegundoAnuncio.css'
 
 function SegundoAnuncio(){

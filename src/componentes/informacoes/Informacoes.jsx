@@ -1,4 +1,4 @@
-import React from 'react'
+//Style
 import IconeEngrenagem from '../img/icone-engrenagens.png'
 import IconeCloud from '../img/cloud-icone.png'
 import IconeSuporte from '../img/icone-suporte.png'

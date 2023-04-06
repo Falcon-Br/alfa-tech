@@ -1,9 +1,12 @@
 .tabela-container{
-    margin: 100px auto;
     font-size: 15px;
+    overflow-x: auto;
+}
+
+.tabela-container table{
     border-spacing: 0;
-    border-radius: 5px;
-    border-bottom: 2px solid var(--cor-cinza);
+    margin: 100px auto;
+    width: 60%;
 }
 
 .tabela-container thead{
@@ -50,7 +53,8 @@
     font-size: 13px;
     font-weight: 600;
     width: 150px;
-
+    
+    background-color: #fff;
     transition: .3s;
 }
 

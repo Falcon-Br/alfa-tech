@@ -1,3 +1,4 @@
+//Style
 import LogoEscuro from '../img/logo-icone-escuro.png'
 import './Rodape.css'
 

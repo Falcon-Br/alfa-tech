@@ -1,6 +1,9 @@
-import Logo from '../img/logo-icone.png'
+//Componentes React
 import {Link as LinkRouter} from 'react-router-dom'
 import {Link as LinkScroll} from 'react-scroll'
+
+//style
+import Logo from '../img/logo-icone.png'
 import './Topo.css'
 
 function TopoHome(){
@@ -33,7 +36,7 @@ function TopoHome(){
 
                     <li>
                         <LinkScroll to="contato" spy={true} smooth={true} offset={50} duration={500}>CONTATO</LinkScroll>
-                    </li>
+                    </li>                    
                 </ul>
             </nav>
         </section>

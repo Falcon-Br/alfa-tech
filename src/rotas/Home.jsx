@@ -1,3 +1,4 @@
+//Componentes
 import Banner from '../componentes/Banner/Banner'
 import PrimeiroAnuncio from '../componentes/Anuncios/PrimeiroAnuncio';
 import SegundoAnuncio from '../componentes/Anuncios/SegundoAnuncio';

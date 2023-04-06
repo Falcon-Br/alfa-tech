@@ -73,7 +73,7 @@ function ModalFormulario({ isOpen, setCloseModal }) {
                 <div className="container-modal">
                     <button className="botao-fechar" onClick={setCloseModal}>X</button>
                     
-                    <div>
+                    <div className="conteudo-modal">
                         <div className="descricao-modal">
                             <h2>Solicite um orçamento personalizado!</h2>
                             <p>Ficamos feliz que esteja interessado no nossos serviços, utilize o formulário abaixo para enviar a sua proposta.</p>

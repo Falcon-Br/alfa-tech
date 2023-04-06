@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
 
-    max-width: 400px;
+    max-width: 500px;
     gap: 4rem;
     margin: 0 auto;
     margin-bottom: 2rem;
@@ -14,7 +14,7 @@
 
 .steps::after{
     content: "";
-    width: 380px;
+    width: 350px;
     border-bottom: 1px solid black;
     position: absolute;
 }

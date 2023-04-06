@@ -3,8 +3,8 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    right: 5%;
-    bottom: 10%;
+    right: 5.5%;
+    bottom: 11.5%;
 
     width: 100px;
     height: 50px;
@@ -18,6 +18,6 @@
 }
 
 .botao-volta a:hover{
-    font-size: 1.15rem;
-    transition: .3s;
+    font-size: 1.1rem;
+    background-color: var(--cor-azul-escuro);
 }

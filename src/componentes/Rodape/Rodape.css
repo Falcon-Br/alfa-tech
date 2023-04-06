@@ -9,6 +9,10 @@
     background-color: var(--cor-azul);
 }
 
+.rodape-container-tabela span{
+    color: #fff;
+}
+
 .logo-rodape img{
     height: 80px;
     width: 80px;
@@ -32,5 +36,6 @@
 }
 
 .sub-descricao-rodape{
-    padding-bottom: 40px;
+    padding: 0 20px 40px 20px;
+    text-align: center;
 }

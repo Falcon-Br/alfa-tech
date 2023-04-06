@@ -1,4 +1,4 @@
-import React from 'react'
+//Style
 import ImagemBanner from '../img/imagem-banner.png'
 import './Banner.css'
 

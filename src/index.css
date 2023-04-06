@@ -1,9 +1,5 @@
-*{
-  margin: 0;
-  font-family: 'Poppins', sans-serif;  
-}
-
 :root{
+  --background: #fff;
   --cor-azul: #2f86d6;
   --cor-azul-escuro: #23303e;
   --cor-cinza: #f1f3f7;
@@ -33,4 +29,3 @@ a:visited{
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
-
