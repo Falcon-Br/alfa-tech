@@ -14,7 +14,6 @@ function PrimeiroAnuncio(){
                 </div>
                 
                 <Link to="/precos">TABELA DE PREÇOS</Link>
-
             </div>
         </section>
     )

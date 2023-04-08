@@ -13,14 +13,14 @@
     color: #fff;
 }
 
+.logo-rodape{
+    display: flex;
+}
+
 .logo-rodape img{
     height: 80px;
     width: 80px;
     margin: 40px 0;
-}
-
-.logo-rodape{
-    display: flex;
 }
 
 .logo-descricao{

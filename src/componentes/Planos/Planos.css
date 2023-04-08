@@ -1,7 +1,7 @@
 .planos-container{
     text-align: center;
-    background-color: var(--cor-cinza);
     margin: 0 auto;
+    background-color: var(--cor-cinza);
 }
 
 .planos-container h2{
@@ -17,6 +17,7 @@
 .table-container{
     display: flex;
     align-items: center;
+    
     height: 700px;
     overflow-x: auto;
 }
@@ -57,17 +58,17 @@
     color: var(--cor-cinza-escuro);
 }
 
-.table-container th, td{
+.table-container th, .table-container td{
     padding: 15px;
     font-weight: 600;
 }
 
-.table-container th, td{
+.table-container th, .table-container td{
     border-left: 2px solid var(--cor-cinza);
     border-top: 2px solid var(--cor-cinza);
 }
 
-.table-container td:last-of-type ,th:last-of-type{
+.table-container td:last-of-type, .table-container th:last-of-type{
     border-right: 2px solid var(--cor-cinza);
 }
 

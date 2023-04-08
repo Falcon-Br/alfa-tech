@@ -152,9 +152,7 @@ function Tabela(){
                         <td>EMAIL & CHAT</td>
                         <td>EMAIL, CHAT & VOICE</td>
                     </tr>
-
                 </tbody>
-                
             </table>
         </div>
     )

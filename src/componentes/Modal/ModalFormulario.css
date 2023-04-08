@@ -18,7 +18,7 @@
     width: 50%;
     height: 85%;
     padding: 20px;
-    /* max-height: 800px; */
+
     background-color: white;
     color: black;
     border-radius: 5px;
@@ -34,12 +34,13 @@
     top: 20px;
     right: 20px;
     
-    color: var(--cor-branco);
-    text-align: center;
-    font-weight: bold;
-    font-size: 15px;
     width: 40px;
     height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    
+    color: var(--cor-branco);
+    text-align: center;
     background-color: var(--cor-azul-escuro);
     border: 0;
     border-radius: 5px;

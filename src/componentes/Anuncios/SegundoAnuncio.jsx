@@ -16,9 +16,9 @@ function SegundoAnuncio(){
     }
 
     return(
-        <section className="pAnunci-container" id="contato">
+        <section className="pSegundo-anuncio-container" id="contato">
             <div className="anuncio-tamanho">
-                <div className="pAnuncio-descricao">
+                <div className="pSegundo-anuncio-descricao">
                     <h2>Quer algum plano mais personalizado?</h2>
                     <h2>Entre em contato conosco!</h2>     
                 </div>

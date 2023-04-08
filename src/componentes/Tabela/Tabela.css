@@ -16,6 +16,12 @@
 
 .tabela-container thead th{
     border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.tabela-container thead th:last-of-type{
+    border-right: 2px solid white;
 }
 
 .tabela-container p{
@@ -25,6 +31,7 @@
 
 .tabela-container th:first-child{
     background-color: white;
+    border: 0;
 }
 
 .tabela-container th:nth-child(2){
@@ -40,14 +47,28 @@
 }
 
 .tabela-container tbody tr th:first-child{
-    padding-left: 30px;
+    width: 280px;
     height: 50px;
+    padding-left: 30px;
+    font-weight: 600;
+    
     text-align: left;
     background-color: var(--cor-cinza);
     border-bottom: 2px solid white;
-    width: 280px;
-    font-weight: 600;
+    border-left: 2px solid white;
 } 
+
+.tabela-container tbody tr:last-child td:last-of-type{
+    border-radius: 0 0 5px 0;
+}
+
+.tabela-container tbody tr:last-child th:last-of-type{
+    border-radius: 0 0 0 5px;
+}
+
+.tabela-container tbody tr:first-child th:first-of-type{
+    border-radius: 5px 0 0 0;
+}
 
 .tabela-container td{
     font-size: 13px;
@@ -69,10 +90,16 @@
     width: 20px;
     height: 20px;
     margin: auto;
+    
     background-color: var(--cor-azul);
     border-radius: 100px;
 }
 
 .tabela-container tbody td:last-child{
     border-right: 2px solid var(--cor-cinza);
+}
+
+.tabela-container tbody td{
+    border-left: 2px solid var(--cor-cinza);
+    border-bottom: 2px solid var(--cor-cinza);
 }

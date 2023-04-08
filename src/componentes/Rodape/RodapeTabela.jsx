@@ -19,7 +19,6 @@ function RodapeTabela(){
             <div className="sub-descricao-rodape" >
                 <p>© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
             </div>
-            
         </section>
     )
 }

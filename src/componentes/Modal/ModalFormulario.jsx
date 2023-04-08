@@ -98,7 +98,6 @@ function ModalFormulario({ isOpen, setCloseModal }) {
                             </div>
                             <ToastContainer/>
                         </form>
-
                     </div>
                 </div>
             </div>

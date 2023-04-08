@@ -9,6 +9,19 @@
   --cor-branco: #f6f6f6;
 }
 
+*{
+  margin: 0;
+  font-family: 'Poppins', sans-serif; 
+}
+
+h1{
+  font-size: 32px;
+}
+
+figcaption{
+  font-size: 15px;
+}
+
 span{
   color: var(--cor-azul);
   font-weight: bold;

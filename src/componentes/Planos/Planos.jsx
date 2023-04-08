@@ -80,7 +80,6 @@ function Planos(){
                             <td>Suporte ilimitado</td>
                         </tr>
                     </tfoot>
-
                 </table>
             </div>
         </section>

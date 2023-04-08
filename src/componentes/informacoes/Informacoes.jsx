@@ -30,7 +30,6 @@ function Informacoes(){
                     <p>Suporte altamente treinado e especializado em soluções de Cloud...</p>
                 </div>
             </div>
-
         </section>
     )
 }
