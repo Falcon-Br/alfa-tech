@@ -65,10 +65,10 @@ function Planos(){
                         </tr>
 
                         <tr>
-                            <td>Ofertas espaciais</td>
-                            <td>Ofertas espaciais</td>
-                            <td>Ofertas espaciais</td>
-                            <td>Ofertas espaciais</td>
+                            <td>Ofertas Especiais</td>
+                            <td>Ofertas Especiais</td>
+                            <td>Ofertas Especiais</td>
+                            <td>Ofertas Especiais</td>
                         </tr>
                     </tbody>
 
