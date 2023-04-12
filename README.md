@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img src="./src/componentes/img/logo-icone.png" width="100px"/>
+  <p>AlfaTech</p>
+  Soluções em Hospedagem 🌐
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🗨 Sobre o Projeto
+*Acesse o projeto! > https://falcon-alfatech.netlify.app*
 
-## Available Scripts
+Projeto **Alfa Tech** é um site fictício de hospedagem de sites, visando simular uma Single Page Aplication.  Para esse projeto foi usado *HTML*, *CSS*, *JavaScript* e *React*, utilizando o Layout base do projeto original da **@devmedia**. O site é totalmente responsivo à qualquer tela até 300px de largura.
 
-In the project directory, you can run:
+## Preview rápida do Projeto
+*Veja o vídeo completo! > https://www.youtube.com/watch?v=zEY-jvRz4nU*
 
-### `npm start`
+### Visão Geral
+<img src="https://github.com/Falcon-Br/alfa-tech/blob/master/assets/visaoGeral.gif" width="650px"/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Mudança de Tema
+<img src="https://github.com/Falcon-Br/alfa-tech/blob/master/assets/mudancaDeTema.gif" width="650px"/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Responsividade
+<img src="https://github.com/Falcon-Br/alfa-tech/blob/master/assets/responsividade.gif" width="650px"/>
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Tecnologias e Ferramentas
 
-### `npm run build`
+## 🛠 Principais Tecnologias
+* [HTML 5](https://www.w3schools.com/html/)
+* [CSS 3](https://www.w3schools.com/css/)
+* [JavaScript](https://www.javascript.com)
+* [React](https://react.dev)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙ Bibliotecas e Ferramentas utilizadas 
+### React
+- Componentes
+- React Router
+- React Scroll
+- React Icons
+- React Toastify
+- Renderização Condicional
+- Fragments 
+- UseState
+- UseLocalStorage 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### HTML 5
+- Tags Semânticas
+- Tabelas com tags semânticas
+- Formulário
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### CSS 3
+- FlexBox
+- Position
+- CSS modules
+- Pseudo-Classes de Estado
+- Pseudo-Classes Estruturais
+- Pseudo Elementos
 
-### `npm run eject`
+### JavaScript
+- Async
+- Persistência de dados
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🧪 Como instalar o projeto em uma máquina
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+    #clonar projeto
+    git clone https://github.com/Falcon-Br/alfa-tech.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+    #Entre no diretório
+    cd alfa-tech
+```
 
-## Learn More
+```bash
+    #Instale as dependências, caso use npm
+    npm install
+```
+<p align="center">Ou</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+    #Instale as dependências, caso use yarn
+    yarn install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
 
-### Code Splitting
+# 🙋‍♂️ Autor
+Ádrio Franciso de Queiroz Falcão
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[![Linkedin Badge](https://img.shields.io/badge/-Ádrio%20Falcão-0099ff?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/%C3%A1drio-falc%C3%A3o-6048b850/)](https://www.linkedin.com/in/%C3%A1drio-falc%C3%A3o-6048b850/)
 
-### Analyzing the Bundle Size
+📭 adriofalcao@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<br>
 
-### Making a Progressive Web App
+# 📃 Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![MIT License](https://img.shields.io/npm/l/react)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está sobre a licença MIT. Veja o arquivo [*LICENSE*](https://github.com/Falcon-Br/alfa-tech/blob/master/LICENSE) para mais detalhes.
